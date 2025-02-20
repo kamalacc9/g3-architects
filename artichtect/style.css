@@ -5,3 +5,31 @@
     font-weight: < 400>;
     font-style: normal;
   }
+  /* shared styles */
+.display-flex{
+    display: flex;
+}
+
+  /* header styles */
+
+ 
+  /* nav related styles */
+  .nav-bar, .banner{
+    justify-content: space-between;
+  }
+  .nav-link{
+text-decoration: none;
+  }
+  .nav-item{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    color: #424242;
+  }
+  .bg-light{
+    background-color: #ebcfae;
+  }
+  .nav-bar, .banner{
+    max-width: 1440px;
+    margin: auto;
+  }
