@@ -137,16 +137,27 @@ font-weight: 500;
 .fact-description{
   max-width: 540px;
 }
+
+
+.sponsor-companies{
+  justify-content: center;
+  gap: 50px;
+}
   /* responsive media query */
   @media screen and (max-width:576px) {
     .nav-bar, .nav-link
     .teams{
       flex-direction: column;
     }
-    .team-img-container{
-      grid-template-columns: repeat(1,1fr);
+    .team-img-container, .facts-container,
+    .sponsor-companies{
+      grid-template-columns: repeat(1fr);
+    }
+    .facts-container{
+      justify-content: center;
     }
   }
+ 
   /* medium size device */
   @media screen and (min-width: 576px) and (max-width:992px) {
     .teams{
